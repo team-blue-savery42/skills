@@ -32,7 +32,6 @@ including the note an agent puts on every issue or pull request it opens.
 | [igc-bisect](skills/igc-bisect/SKILL.md) | bisect IGC for the commit that introduced or fixed a behaviour |
 | [xe-bug-report-collect](skills/xe-bug-report-collect/SKILL.md) | collect a redacted diagnostic bundle for a GPU, driver or runtime problem |
 | [xe-bug-report-develop](skills/xe-bug-report-develop/SKILL.md) | contribute to xe-bug-report |
-| [github-markdown-preview](skills/github-markdown-preview/SKILL.md) | preview Markdown exactly as github.com renders it, also for files on a remote host |
 | [agent-issues-and-prs](skills/agent-issues-and-prs/SKILL.md) | open or draft issues, pull requests and upstream bug reports, with the agent disclosure note |
 
 ## Using the skills
