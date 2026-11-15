@@ -223,7 +223,7 @@ flattening nested struct arguments, moving bfloat16 as `i16`, splitting
   belongs above the HAL (`AGENTS.md`).
 - Do not upgrade IGC to avoid one bug without running the rest:
   IGC 2.42 and 2.43 fix several miscompiles and break MAX's paged flash
-  attention ("IGC 2.42 and 2.43: NaN in paged flash attention").
+  attention ("IGC 2.42 and 2.43: NaN in paged FA").
 - When no cheap rewrite exists, leave the plugins alone, mark the affected
   tests, document the bug, and say whether a newer IGC fixes it.
 - A candidate patch to IGC is welcome as `fix.patch`, tested on a source
