@@ -164,9 +164,13 @@ the command that produced it. Never report a result you did not run.
   `tests/max-gpu-expected.txt` with the cause (skill
   `intel-plugin-checks`).
 - Modular's `AI_TOOL_POLICY.md` asks that AI-assisted work be labelled
-  (`Assisted-by: AI`) in the commit message *or the PR description*. The
-  fork's commits carry no trailer but `Signed-off-by`, so put the label in
-  the PR description. Keep PRs small (the policy suggests under 100 lines
+  (`Assisted-by: AI`) in the commit message or the PR description. The
+  fork's `plugins/intel/CONTRIBUTING.md` allows that one trailer besides
+  `Signed-off-by`: a commit with substantial AI-generated content carries
+  `Assisted-by: AI` directly above its sign-off, and the PR description
+  says so too. Whether a commit qualifies is the human author's call, not
+  the agent's; an agent drafting commits adds the trailer and leaves it for
+  the author to review. Keep PRs small (the policy suggests under 100 lines
   where possible).
 
 **Upstream to Modular**: open an issue and get a maintainer's go-ahead
